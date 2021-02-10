@@ -335,7 +335,7 @@ background: linear-gradient(to right, rgba(20,135,144,1) 0%,rgba(20,135,144,1) 4
 }
 .customSteps{
 	display: inline-block;;
-	width: 25%;
+	width: 30%;
 }
 .custom h2{
 	color: #38394f;
@@ -365,7 +365,7 @@ background: linear-gradient(to right, rgba(20,135,144,1) 0%,rgba(20,135,144,1) 4
 	height: 426px;
 	width: 59%;
 	position: absolute;
-	right: 200px;
+	right: 150px;
 	top: 185px;
 	z-index: 1;
 	display: flex;

@@ -12,7 +12,7 @@ projectsSlide.style.transform = 'translateX(' + (-size * counter ) + 'px)';
 
 nextBtnEl.addEventListener('click', () => {
 	if (counter >= projectsImages.length -1) return;
-	projectsSlide.style.transition = "transform 0.2s ease-in-out";
+	projectsSlide.style.transition = "transform 0.3s ease-in-out";
 	counter++;
 	projectsSlide.style.transform = 'translateX(' + (-size * counter  ) + 'px)';
 	
@@ -20,7 +20,7 @@ nextBtnEl.addEventListener('click', () => {
 
 prevBtnEl.addEventListener('click', () => {
 	if (counter <= 0) return;
-	projectsSlide.style.transition = "transform 0.2s ease-in-out";
+	projectsSlide.style.transition = "transform 0.3s ease-in-out";
 	counter--;
 
 	projectsSlide.style.transform = 'translateX(' + (-size * counter  ) + 'px)';
