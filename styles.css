@@ -101,11 +101,13 @@ input::placeholder{
 	letter-spacing: 1px;
 	outline: none; 
 	cursor: pointer;
+	box-shadow: 0px 2px 10px -1px rgba(204,204,204,1);
 }
 .submit.getStarted {
 	background-color: var(--dark-bg-color);
 	color: var(--dark-bg-text); 
 	cursor: pointer;
+	box-shadow: 0px 2px 10px -1px rgba(204,204,204,1);
 }
 
 /*Right Hero Section*/
@@ -265,12 +267,21 @@ background: linear-gradient(to right, rgba(20,135,144,1) 0%,rgba(20,135,144,1) 4
 
 /*Team section*/
 
+.teamMember { 
+	transform: transform .2s;
+} 
+
+.teamMember:hover { 
+	transform: scale(1.85);
+}
+
 .teamSection{
 	height: 700px;
 }
 .teamContent{
 	padding: 20px;
 	position: relative;
+	
 }
 .teamContent h3{
 	font-weight: 300;
@@ -292,7 +303,8 @@ background: linear-gradient(to right, rgba(20,135,144,1) 0%,rgba(20,135,144,1) 4
 	width: 7%;
 	border: 5px solid #c22696;
 	top: 34px;
-  left: 278px;
+  left: 278px; 
+  
 }
 .teamContent img.secondPerson{
 	width: 10%;
