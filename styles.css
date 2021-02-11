@@ -54,6 +54,10 @@ header .right-menu a:hover{
 	color: #7e53fd;
 }
 
+.form-select{
+	display: none;
+}
+
 /*Hero Section*/
 .hero-section{
 	
@@ -438,3 +442,4 @@ background: linear-gradient(to right, rgba(20,135,144,1) 0%,rgba(20,135,144,1) 4
 }
 
 /*Media Queries section*/
+ /* here is all the mobile  */
