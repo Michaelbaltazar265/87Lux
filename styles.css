@@ -443,3 +443,13 @@ background: linear-gradient(to right, rgba(20,135,144,1) 0%,rgba(20,135,144,1) 4
 
 /*Media Queries section*/
  /* here is all the mobile  */
+
+ @media (max-width: 960px) {
+	.menu-row   { display: none; }
+	.form-select { 
+		display: inline-block; 
+
+		margin-left: 15px;
+	
+	}
+  }
