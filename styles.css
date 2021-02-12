@@ -273,10 +273,11 @@ background: linear-gradient(to right, rgba(20,135,144,1) 0%,rgba(20,135,144,1) 4
 
 .teamMember { 
 	transform: transform .2s;
+	cursor: pointer;
 } 
 
 .teamMember:hover { 
-	transform: scale(1.85);
+	transform: scale(1.25);
 }
 
 .teamSection{
